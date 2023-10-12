@@ -1,0 +1,8 @@
+CLUSTER
+
+Etapa: Muestra las estapas (veces) en las que los datos se agrupan
+Etapa Sig: Etapa en donde los datos se vulven a agrupar
+
+Guradrar: Var Unica, le damos cuantos clusters deben haber. Crea una variable donde le indica al usuario cuantos variables hay en un cluster
+
+Por variables hace algo similar a PCA. 

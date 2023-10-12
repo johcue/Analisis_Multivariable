@@ -1,0 +1,35 @@
+TECNICAS DE SEGMENTACION Y ARBOLES DE DESICION
+
+qu'e es clasificar: Grupos uniformes mas pequeños al interior de una muestra (intragrupo y entre, hacia afuer))
+
+Predictivas: Predecir el fenomeno. Clasificar las variables que pueden ser indep o dep. Redes neuronales.
+
+Descriptivas: Describir el fenomeno. No hay dep o indep. Clustering, var de correspondencia
+
+Ad-Hoc (antes de, ya se sabe que va a pasar en la segmentacion de los datos) y Post-hoc (despues de, NO se conoce la segmentacion de los datos)
+
+ARBOLES DE DESICION
+EN SPSS: Forzar la variable: Forza la varible que este primero en la lista. 
+
+Modelos de prediccion dada una BD. Predecir una observacion donde la puedo clasificar. 
+Puede ser cont o disc. Se utilizan valores disc por simplicidad.
+
+CHAID: Chi_Square Automatic Interaction Detection, CHI cuadraddo, arbol iterrativo y dinamico. Segmentar de acuerdo a los segmentos que tenga. 
+En SPSS: Divide el nodo segun el nivel de varianza dentro de cierto nivel critico (chi cuadrado). Si P ajustado fuese menor al 0.5, se debe encontrar otra segmentacion. Si el nivel es menor al nivel critico, se unen ambas categorias y se repote el proceso de segmentacion. Si es mayor se convierten en candidaras a la division de la variable. 
+
+
+CART o CRT: Variables dep nominales y var indep (predictores). ARBOL de REGRESION. Genera un vector cuantitativo. 
+La variable dependiente es categorica. 
+Poda, dif de ajuste; Define el nivel de riesgo, No debe ser negativo. Sï se pone cero, se pone un arbol de mnor riesgo. Directamente proporcional. 
+tree_car. No se activa categorias. Pronostico del valor del carro que se va a compar.
+
+
+
+QUEST: QUEST—or Quick, Unbiased, Efficient Statistical Tree—is a binary classification method for building decision trees. A major motivation in its development was to reduce the processing time required for large C&R Tree analyses with either many variables or many cases. A second goal of QUEST was to reduce the tendency found in classification tree methods to favor inputs that allow more splits, that is, continuous (numeric range) input fields or those with many categories.
+Sin sesgos. 
+Var dep solo categorica
+tree_credit con val credito
+Las muestras estan desbalanceadas. A veces es mejor submuestrear. 
+La propabilidad de que el arbol se equipoque esta en el nodo 13 por el P = 0.014
+
+

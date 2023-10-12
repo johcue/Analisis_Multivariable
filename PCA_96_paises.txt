@@ -1,0 +1,19 @@
+PCA
+PCA es aprox en 2 o maximo 3 componentes. 
+Es lo mas facil de garficar XD
+
+KMO = Prueba Kaiiser (?)
+Auto val mayores que 1 = Lmnda mayor a 1 cofactor
+covarianzas = mayor que la media
+
+DET aprox 0 =  Orto XD variables dependientes
+sig = fin val mayor a 0,005 la tecnica no se puedeutilizar, no es aducuada
+
+Hay 3 componentes, porque se le dijo que sí era mayor a uno, se dejara esa componente. 
+
+ROTACION
+Se intenta buscar que las variables sean mas marcadas segun el componente. 
+Comp_1 =  Comp_1_ROT, variables 'linea_tel', 'consum_energia', 'emision_CO2_cap'
+Comp_2/Comp_3 = De la misma forma que en Comp_1_ROT, esto nos permite verificar que el PCA seccione los valores de acuerdo. 
+
+

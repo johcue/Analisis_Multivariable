@@ -1,0 +1,25 @@
+ARBOL 
+No clasifica como mas o menor cercano, sino por porcentaje, de acuerdo a los registros.
+
+ANALIZAR -> EST. DESCRIPTIVOS -> FREC, da la valoracion del credito
+
+valoracion del credito var indte
+
+CHAID CHI cuadraddo, arbol iterrativo y dinamico
+
+vALIDACION: cuanto va aqcpjer de la muestra para entrenar y cuanto para provar. 
+
+NIVELES: PROF DE LAMBDA
+- QUE CONSIDERA BUENA PAGA O MALA PAGA DENTRO DE LA CATEGORIA MALA
+- Escoge elementos segun la var nivel de ingresos segun el nodo 0. (Nod inicial)
+
+-En TERCER NODO, este nodo, se mira que el valor P ajustado no se mayor al 0.5 para buscar que el arbol NO Se equivoque
+
+TECNICAS DE SEGMENTACION
+
+qu'e es clasificar: Grupos uniformes mas pequeños al interior de una muestra (intragrupo y entre, hacia afuer))
+
+Predictivas: Predecir el fenomeno. Clasificar las variables que pueden ser indep o dep. 
+Descriptivas: Describir el fenomeno. 
+
+
